@@ -1,0 +1,60 @@
+/* STYLESHEET */
+body{
+	font-family: "Open Sans", Arial;
+	overflow: hidden;
+}
+#wrapper {
+}
+#poem_content {
+	display: block;
+	width: 240px;
+	padding: 20px;
+	height: 1000px;
+	float: left;
+	background-color: #eeeeee;
+}
+#poem_content h1{
+	color: #d0d0d0;
+	font-family: "Nunito";
+	font-size: 2em;
+}
+#poem_content h2{
+	color: #dddddd;
+	font-family: "Nunito";
+	font-size: 1.5em;
+}
+#main_content{
+	left: 280px;
+	float: left;
+	position: fixed;
+}
+#canvas{
+	display: block;
+	float: left;
+	margin: 20px;
+	width: 520px;
+	height: 380px;
+	border: 1px solid #dddddd;
+}
+#picker{
+	display: block;
+	float: left;
+	background-color: #f9f9f9;
+	padding: 10px;
+	clear: both;
+	width: 2000px;
+	height: 200px;
+	color: #444444;
+	font-size: 0.9em;
+}
+#picker h1{
+	font-size: 1.3em;
+	color: #777777;
+	margin-bottom: 6px;
+}
+p{
+	color: #444444;
+	font-size: 0.9em;
+	margin-top: 15px;
+	line-height: 1.3em;
+}
