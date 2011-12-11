@@ -46,6 +46,11 @@
    			<div id='picker'>
    				<h1>It's your turn:</h1>
    				Who do you choose? Potato.
+   				<ul>
+   					<li><a href='#'>Choice 1, this is a good one, I guess</a></li>
+   					<li><a href='#'>Choice 2, this is even better, somewhat</a></li>
+   					<li><a href='#'>Choice 3, this is less solid, need more text?</a></li>
+   				</ul>
    			</div>
    		</div>
 	</div>

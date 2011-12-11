@@ -102,7 +102,7 @@ p{
 	background-color: #f8f8f8;
 }
 .c1 {
-	background: #554277;
+	background: #1b1527;
 }
 .c2 {
 	background: #83c0d7;
@@ -118,4 +118,43 @@ p{
 }
 .c6 {
 	background: #ffb0df;
+}
+ul {
+
+}
+li{
+	display: inline-block;
+	border-left-color: #ffffff;
+	border-top-color: #ffffff;
+	border-right-color: #617c91;
+	border-bottom-color: #617c91;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-width: 1px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: #A5B9BF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+li a{
+	padding: 6px;
+	width: 160px;
+	height: 32px;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	line-height: 1.2em;
+	
+}
+li a:hover{
+	background-color: #ffffff;
+	text-decoration: none;
+	display: block;
+	opacity: 0.5;
+	
 }
