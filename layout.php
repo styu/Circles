@@ -35,7 +35,13 @@
    		</div>
    		<div id='main_content'>
    			<div id='canvas'>
-   				<div class='circle'></div>
+   				<div class='circle c0'></div>
+   				<div class='circle c1'></div>
+   				<div class='circle c2'></div>
+   				<div class='circle c3'></div>
+   				<div class='circle c4'></div>
+   				<div class='circle c5'></div>
+   				<div class='circle c6'></div>
    			</div>
    			<div id='picker'>
    				<h1>It's your turn:</h1>
