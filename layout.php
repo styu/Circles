@@ -10,11 +10,15 @@
 		<!-- fonts --> 
     	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800" rel="stylesheet" type="text/css">
     	<link href="http://fonts.googleapis.com/css?family=Nunito:400,700,300" rel="stylesheet" type="text/css">
+    	
+    	<!-- scripts -->
+    	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+   
    </head>
    <body>
    <div id='wrapper'>
    		<div id='poem_content'>
-   			<h1>Circles<div class='circle_1'></div><div class='circle_2'></div></h1>
+   			<h1>Circles<div class='circle_logo_1'></div><div class='circle_logo_2'></div></h1>
    			<h2>Interactive Poem</h2>
    			<p>
    			One two three<br />
@@ -30,7 +34,9 @@
    			</p>
    		</div>
    		<div id='main_content'>
-   			<div id='canvas'> </div>
+   			<div id='canvas'>
+   				<div class='circle'></div>
+   			</div>
    			<div id='picker'>
    				<h1>It's your turn:</h1>
    				Who do you choose? Potato.

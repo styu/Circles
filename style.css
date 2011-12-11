@@ -37,6 +37,7 @@ body{
 	border: 1px solid #dddddd;
 }
 #picker{
+	border-top: #eeeeee solid 1px;
 	display: block;
 	float: left;
 	background-color: #f9f9f9;
@@ -48,7 +49,7 @@ body{
 	font-size: 0.9em;
 }
 #picker h1{
-	border-bottom: 1px solid #cccccc;
+	/* border-bottom: 1px solid #cccccc; */
 	padding-bottom: 8px;
 	font-size: 1.3em;
 	color: #777777;
@@ -60,7 +61,7 @@ p{
 	margin-top: 15px;
 	line-height: 1.3em;
 }
-.circle_1 {
+.circle_logo_1 {
 	display: inline-block;
 	position: relative;
 	top: -2px;
@@ -71,14 +72,30 @@ p{
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 }
-.circle_2 {
+.circle_logo_2 {
 	display: inline-block;
 	position: relative;
-	top: -14px;
-	left: 6px;
+	top: -16px;
+	left: 8px;
 	width: 10px;
 	height: 10px;
 	background: #ffa000;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
+}
+
+.circle {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background: #b98fff;
+	-moz-border-radius: 1000px;
+	-webkit-border-radius: 1000px;
+	border: solid 3px #ffffff;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
