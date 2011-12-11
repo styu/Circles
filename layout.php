@@ -14,7 +14,7 @@
    <body>
    <div id='wrapper'>
    		<div id='poem_content'>
-   			<h1>Circles</h1>
+   			<h1>Circles<div class='circle_1'></div><div class='circle_2'></div></h1>
    			<h2>Interactive Poem</h2>
    			<p>
    			One two three<br />
