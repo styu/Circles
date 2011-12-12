@@ -1,0 +1,264 @@
+prompt You are born
+prompt It\'s your first day of first grade. You walk into the classroom. Where do you sit? Next to...
+choice 0#0#0 Black
+choice 0#0#0 Green
+choice 0#0#0 Pink
+prompt You sit down next to black, who doesn\'t acknowledge your presence. You decide to...
+choice 0#0#0 Do nothing
+choice 0#0#0 Introduce yourself
+choice 0#0#0 Make fun of black\'s face
+prompt You sit down next to green, turns to you and tells you his/her name. You respond by...
+choice 3#1#1 Introducing yourself as well
+choice 0#0#0 Doing nothing
+choice 3#-1#-1 Make fun of green\'s face
+prompt You sit down next to pink, who turns to you and begins to make fun of you. You respond by...
+choice 0#0#0 Doing nothing
+choice 6#-1#-1 Making fun of pink\'s face
+choice 6#1#1 Introducing yourself
+prompt You sit silently throughout class. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to sit beside...
+choice 0#0#0 Red
+choice 0#0#0 Orange
+choice 0#0#0 Blue
+prompt You have made a new friend! Soon the bell rings and it\'s time for lunch. You enter the cafeteria, and black asks sit with you at lunch. You decide to sit beside...
+choice 1#1#0 Black
+prompt You have made a new friend! Soon the bell rings and it\'s time for lunch. You enter the cafeteria, and green asks sit with you at lunch. You decide to sit beside...
+choice 3#1#0 Green
+prompt Green turns away from you and class begins. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to sit beside...
+prompt Pink turns away from you and class begins. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to sit beside...
+prompt Black continues to ignore you and class begins. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to site beside...
+prompt Green glares at you in response to the insult and you both sit in silence throughout class. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to sit beside...
+prompt Pink glares at you in response to the insult and you both sit in silence throughout class. Soon the bell rings and it\'s time for lunch. You enter the cafeteria and decide to sit beside...
+prompt You have made a new friend! Soon the bell rings and it\'s time for lunch. You enter the cafeteria, and pink asks sit with you at lunch. You decide to sit beside...
+choice 6#1#0 Pink
+prompt You decide to sit next to red. After opening your lunch box, you decide to...
+choice 0#0#0 Sit and eat your lunch silently
+choice 4#1#1 Offer red a cookie
+choice 4#-1#-1 Steal a sip from red\'s drink
+prompt You decide to sit next to orange. After opening your lunch box, you decide to...
+choice 0#0#0 Sit and eat your lunch silently
+choice 5#1#1 Offer orange a cookie
+choice 5#-1#-1 Steal a sip from orange\'s drink
+prompt You decide to sit next to blue. After opening your lunch box, you decide to...
+choice 0#0#0 Sit and eat your lunch silently
+choice 2#1#1 Offer blue a cookie
+choice 2#0#-1 Steal a sip from blue\'s drink
+prompt You sit with your new friend, black. After opening your lunch box, you decide to...
+choice 0#0#0 Sit silently
+choice 1#1#1 Offer black a cookie
+choice 1#-1#-1 Steal a sip from black\'s drink
+prompt You sit with your new friend, green. After opening your lunch box, you decide to...
+choice 3#1#1 Offer green a cookie
+choice 3#0#-1 Steal a sip from green\'s drink
+prompt You sit with your new friend, pink. After opening your lunch box, you decide to...
+choice 6#0#1 Offer pink a cookie
+choice 6#-1#-1 Steal a sip from pink\'s drink
+prompt As you sit silently, red steals your cookie and you finish the rest of your lonely lunch in silence.
+prompt Red punches you in the face for stealing a sip of red\'s drink. Consequently red gets in trouble, and you finish the rest of your lunch in silence.
+prompt You have made a new friend! You have an awesome first lunch with red.
+prompt Blue turns to you and asks \'What are you doing here?\'. You respond by...
+choice 2#-1#0 leave blue to himself
+choice 0#0#0 sit silently and eat your lunch
+prompt You just left Blue, where will you sit next?
+prompt Blue sits there and ignores you.
+prompt You have made a new friend! You have an awesome first lunch with blue.
+choice 0#0#0 hide and be lonely
+prompt After you steal a sip from blue, he doesn\'t notice and you feel guilty.
+prompt You have made a new friend! You have an awesome first lunch with orange.
+prompt Orange tells you that if you give him a cookie, he\'ll be your friend.
+choice 5#1#1 you give orange the cookie
+choice 5#-1#-1 you don\'t give orange the cookie
+prompt You sit silenly next to orange for the rest of lunch.
+prompt After you steal a sip of orange\'s drink, he catches you and tell you to give him a cookie or he\'ll tell the teacher
+choice 5#1#1 you give begrudgingly give orange the cookie
+choice 5#-1#-1 you don\'t give orange the cookie
+choice 5#-1#-1 You lie and tell the teacher that orange tried to steal your cookie
+prompt (END) Orange tells the teacher and you\'re in trouble and you get suspended
+prompt Orange hits you for lying and he gets in trouble.
+prompt You and your friend sit awkwardly in silence.
+prompt Green takes the cookie and offers you candy in return.
+prompt Pink takes the cookie and glorifies in his awesomeness.
+prompt Black ignores the offer.
+prompt Green catches you stealing a sip, but forgives you and gives you the entire drink in return
+prompt Pink catches you stealing a sip and begins crying.
+prompt Black see you taking a sip, but does nothing.
+prompt It is recess time, but it is raining heavily so you and your classmates are playing indoors; who do you play next to?
+choice 0#0#0 play next to red
+choice 0#0#0 play next to pink
+choice 0#0#0 play next to green
+prompt You sit down next to red and play with your toy, and red really likes your toy and asks to play with it.
+prompt You sit down next to pink and play with your toy, and pink really likes your toy and just takes it to play with it.
+prompt You sit down next to green and play with your toy, and green starts to play with you by sharing his toys.
+choice 4#1#1 share with red
+choice 4#-1#-1 don\'t share with red
+choice 6#-1#-1 you tell on pink
+choice 6#1#1 you take pink\'s toy
+choice 6#1#1 you let pink play with your toy
+choice 3#1#-1 steal green\'s toy
+choice 3#1#1 play with green
+choice 0#0#0 you leave
+prompt You gained a new friend! You have a great time playing with your toy with red.
+prompt Red really wanted your toy and because you didn\'t share, he gets mad and breaks your toy.
+prompt Pink gets in trouble for stealing your toy. You stand up and decide to sit next to?
+prompt Pink is impressed with your bravery for standing up for yourself, You gained a new friend!
+prompt Pink revels in his power over others, You sort of gain a new friend!
+prompt Green catches you stealing his toy, but he doesn\'t care and rather gives you his toy.
+prompt You gained a new friend! You have a great time playing with your toy with green.
+prompt You go around and decide to sit next to?
+choice 4#-1#-1 You tell on red
+choice 4#1#1 You start fighting with red
+choice 0#0#0 You cry
+prompt Red gets in trouble and you get up and decide to sit next to?
+prompt Red enjoys a good fight and you guys have a lot of fun roughing it up. You gained a new friend!
+prompt Red thinks you\'re a loser and gets up and leaves, and you\'re alone, crying...
+prompt You\'re in middle school, and it\'s midterms week. You realize your math test is tomorrow. You decide to:
+choice 0#0#0 call someone to study
+choice 0#0#0 forget it, math is too hard
+choice 0#0#0 study by yourself
+prompt You pick up the phone and decide to call
+prompt You go to bed and at the test the next day you:
+prompt You study really hard, but the next day you look at the test and dont understand anything, you:
+choice 1#1#0 Call black
+choice 2#1#0 Call blue
+choice 5#1#0 Call orange
+choice 0#0#0 cheat
+choice 0#0#0 sleep
+choice 0#0#0 guess
+choice 0#0#0 try harder
+prompt Black knows his math, and helps you study,you get an A
+prompt You and blue study together and you both get an B
+prompt Orange doesn\'t seem to know anything and you end up helping him study, he gets an A and you get a C
+prompt You cheat off of who\'s test?
+prompt (END) You failed the test
+prompt You get an A on the test through your own efforts and someone asks you to help them for the next test.
+choice 1#1#1 Thank black for his help
+choice 1#1#-1 Ignore thereafter
+choice 2#-1#-1 You wanted an A, not B!
+choice 2#1#1 HIGH FIVE!
+choice 5#-1#-1 lie to teacher and say orange cheated
+choice 5#-1#-1 punch orange
+choice 0#0#0 move on
+choice 0#0#0 cheat off of black
+choice 0#0#0 cheat off of pink
+choice 0#0#0 cheat off of red
+prompt After cheating off of black, you get an A; he knows you copied his answers, but he doesn\'t care
+prompt (END) After cheating off of pink, you get an A; he knows you copied his answers, and he tells on you. You\'re suspended
+prompt After cheating off of red, you get an C; he tried cheating off of you, so both of you got wrong answers.
+prompt You appreciate black and value him as more just just a tool.
+prompt You\'re just using black.
+prompt You\'re mad at blue because you didn\'t get an A, so you never study with blue again.
+prompt You and blue both celebrate because you guys got B\'s!!!
+prompt The teacher doesn\'t believe orange cheated
+prompt You and orange get in a fist fight
+prompt You forget about the incident
+prompt Orange decides to celebrate the end of midterms and throws a party, inviting the whole school including you. You decide to:
+prompt Orange decides to celebrate the end of midterms and throws a party, inviting the whole school including you, although with a sinister smile. You decide to:
+choice 0#0#0 you decide to go
+choice 0#0#0 you begrudgingly decide to go
+choice 0#0#0 you decide to not go
+prompt You walk into the house, and go to:
+choice 0#0#0 pink
+prompt pink decides to challenges blue, who is weak, to arm wrestling, you:
+choice 0#0#0 do nothing
+choice 6#1#1 cheer pink on.
+choice 2#1#1 take blue\'s place
+prompt You do nothing but watch on as blue gets humiliated. Then you decide to:
+prompt You and pink have a good laugh as blue loses terribly, you gain a friend! You then decide:
+prompt (BLUE) You slam pink into the ground, and saves blue from humiliation; you guys end up being best friends.
+choice 2#1#1 feel bad for blue and decide to comfort him
+choice 6#1#1 laugh at blue for being a loser and congratulate pink
+choice 0#0#0 say nothing
+prompt (BLUE) You and blue end up having a good time at the party and become best friends.
+prompt (PINK) After congratulating pink, you guys hang out and start talking about how awesome each other is.
+prompt (ALONE) You didn\'t really feel like doing anything, and nothing really interests you, so you end up alone.
+choice 6#1#1 keep talking to pink
+choice 6#-1#0 you get bored of pink
+choice 0#0#0 you leave the party
+prompt (PINK) You and pink have a good time and start talking about how awesome you guys are.
+prompt You decide pink is boring, so you leave and:
+choice 0#0#0 go to orange
+choice 0#0#0 go to red
+choice 0#0#0 go to green
+prompt You walk over to orange just as red is trying to pick a fight with orange
+choice 4#1#1 5#-1#-1 help red
+choice 5#1#1 4#-1#-1 help orange
+choice 0#0#0 do nothing but watch
+prompt (RED) You help red by punching orange in the face, and you and red leave the party to have fun elsewhere
+prompt (ORANGE) You help orange by telling red to cool it, and orange appreciates your help and you guys have a good time
+prompt (ALONE) You watched as the two fight it out and afterward you have no one to talk to
+prompt Red is drunk and offers you a beer:
+choice 4#1#1 chug it
+choice 0#0#0 decline and just chat
+choice 4#-1#0 leave red to his drunkeness
+prompt (RED) You and red get really drunk and have lots of laughs, and meet up every weekend to get drunk
+prompt Red asks you to go to a room upstairs, you:
+prompt After leaving red, you decide to:
+choice 4#1#1 go wih red to upstairs
+choice 4#-1#-1 tell him to go away
+prompt (RED) You didn\'t want to drink in front of others but you end up taking the beer, and you guys get chummy
+prompt After leaving red, you decide to:
+choice 0#0#0 go to orange
+choice 0#0#0 go to green
+choice 0#0#0 leave the party
+prompt You walk over to green while he\'s telling a story and he\'s about to reach the punchline and you:
+choice 3#1#1 let him tell it because you think its good
+choice 3#-1#-1 interrupt
+choice 3#-1#-1 listen and say it\'s stupid
+prompt (GREEN) You and green continue laughing and you guys have a good time
+prompt Green looks a bit disconcerted and orange sticks up for green, you decide to:
+prompt you leave green and decide to:
+choice 3#1#1 apologize to green
+choice 0#0#0 leave and back down
+prompt (GREEN) (ORANGE) You, green, and orange have a good time at the party.
+prompt After you decide to not be at the party, black calls and invites you to go to a haunted house. You decide to
+choice 1#-1#-1 Don\'t go
+choice 1#1#1 Go
+prompt (ALONE) You stay home halloween and do nothing special.
+prompt You arrive at the haunted house. Some people ditched the party to join you. Black asks who wants to go in with him. You:
+choice 1#1#1 Go with black
+choice 0#0#0 volunteer someone else
+choice 0#0#0 stay quiet
+prompt You walk inside, following black, go up the stairs into some creepy attic, where black lights a cigarette and he offers you one you:
+choice 1#1#1 you smoke it
+choice 1#-1#-1 you say no
+prompt (BLACK) You and black hit it off and smoke together for the rest of the year
+prompt (ALONE) You decide to leave.
+prompt Blue goes in. You hear a scream. You:
+choice 2#1#1 run inside
+choice 0#0#0 run away
+choice 0#0#0 freeze in fear
+prompt (BLUE) Blue had seen a rat. You comfort blue and have a lot of fun.
+prompt (ALONE) Black comes out laughing at you, while holding a recording of a scream. You leave.
+prompt Red comes up to you and tell you that its a prank, and brings you to the party. You decide to:
+prompt You follow everyone in. You see everyone smoking and they ask you if you want to join. You:
+choice 0#0#0 leave
+choice 1#1#1 join in
+prompt You leave and sneak into the party. You decide to:
+prompt (BLACK) Black is impressed with you, and you guys have a lot of fun.
+prompt As you arrive at the party, orange gets a bunch of his friends to throw you into the pool. You decide to:
+choice 5#-1#-1 leave the party
+choice 5#1#1 pull orange into the pool with you
+choice 5#-1#-1 do nothing
+prompt You and Orange have a good laugh and turn the party into a pool party. You hang out with:
+prompt Blue stands up for you. You decide to:
+choice 0#0#0 orange
+choice 0#0#0 red
+choice 0#0#0 pink
+prompt You start talking to Orange and you choose to talk about:
+choice 5#-1#-1 the test
+choice 5#1#1 something in common
+choice 0#0#0 make small talk
+prompt As you guys talk about the test, tension builds and you decide to:
+prompt (ORANGE) You find that you and orange have a lot in common, and become best friends and forget the past.
+prompt Orange gets bored and leaves, so you go toward:
+choice 5#-1#-1 leave orange
+choice 0#0#0 go toward green
+prompt You walk over to green and he is completely drunk and puking, so you:
+choice 3#-1#-1 get disgusted and leave
+choice 3#1#1 help him by getting him water
+choice 3#1#1 call for help
+prompt (ALONE) You feel that no one is fun to talk to so you leave.
+prompt (GREEN) He quickly recovers the next day and you guys are really good friends.
+choice 2#1#1 accept blue\'s help
+choice 2#-1#-1 decline his help
+prompt (BLUE) Blue helps you out the water and you guys leave the party and chill.
+prompt (ALONE) Blue gives you a look and walks away, and you leave the party soaking wet, only to return home to solitude.
