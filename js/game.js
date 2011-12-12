@@ -3,16 +3,31 @@ $(document).ready(function(){
 	//initial game state
 	id = getID(init, 6);
 	$.post('php/choose.php', {promptID: id}, function(data) {
-		$('#picker').empty().append(data);
+		var div = $(data);
+			$(data).appendTo('#main_content').fadeIn(1000);
+		var poem = unescape($('#poem_hidden').text());
+	
+	$('#poem').append("<p>"+poem+"</p>");
+	$('#poem_hidden').remove();
 	});
+	
 	$('li a').live('click', function(){
 		var id = $(this).attr('id');
 		$.post('php/choose.php', {promptID:id}, function(data) {
-			$('#picker').empty();
-			var newData = $(data);
-			$('#picker').empty();
-			newData.appendTo($('#picker')).fadeIn();
+			$('#picker').fadeOut().remove();
+			var div = $(data);
+			$(data).appendTo('#main_content').fadeIn();
+			var poem = unescape($('#poem_hidden').text());
+			if ($('#picker ul').attr('id') == '000001'){
+				$('#poem').empty();
+				$('#poem').append("<p>"+poem+"</p>").fadeIn();
+			}
+			else{
+				$('#poem').append("<p>"+poem+"</p>");
+			}
+			$('#poem_hidden').remove();
 		});
+		
 	});
 });
 

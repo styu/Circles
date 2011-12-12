@@ -2,7 +2,8 @@
 require_once('db_setup.php');
 $link = db_default_connection();
 db_setup_connections_table($link);
-
+echo "<div id = 'picker'>
+";
 if (!empty($_POST['promptID'])){
 	$sql = mysql_query("SELECT * FROM prompts WHERE id = '" . $_POST['promptID'] . "'");
 	$data = mysql_fetch_array($sql);
@@ -41,7 +42,7 @@ if (!empty($_POST['promptID'])){
 		}
 		else if ($data['nextPrompt'] != '000000'){
 			echo "<h1>$data[text]</h1>
-			<ul>
+			<ul id = '$data[id]'>
 				<li><a href='#' id = '" . $data['nextPrompt'] . "'>Continue</a></li>
 			</ul>
 			";
@@ -95,6 +96,11 @@ if (!empty($_POST['promptID'])){
 			echo "</ul>
 			";
 		}
+		//$poem = urlencode($data['poem']);
+		$poem = $data['poem'];
+		echo "<div id = 'poem_hidden'>$poem</div>
+		";
 	}
 }
+echo "</div>";
 ?>

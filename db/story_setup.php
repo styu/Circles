@@ -6,10 +6,10 @@
 <?php
 require_once('../php/db_setup.php');
 $link = db_default_connection();
-//db_setup($link);
 db_setup_connections_table($link);
-//db_insert_prompts();
-//db_insert_choices();
+/** only once **/
+db_insert_prompts();
+db_insert_choices();
 ?>
 <style>
 .text{
@@ -62,11 +62,20 @@ if (!empty($_POST)){
 	if (!empty($_POST['choice1_prompt']) && $_POST['choice1_prompt'] != ''){
 		mysql_query("UPDATE choices SET promptID = '".$_POST['choice1_prompt']."' WHERE id = '" . $_POST['choice1'] . "'") or print ("error: " . mysql_error());
 	}
+	if (!empty($_POST['choice1text']) && $_POST['choice1text'] != ''){
+		mysql_query("UPDATE choices SET text = '" . addslashes(urldecode($_POST['choice1text'])) . "' WHERE id = '" . $_POST['choice1'] . "'") or print ("error: " . mysql_error());
+	}
 	if (!empty($_POST['choice2_prompt']) && $_POST['choice2_prompt'] != ''){
 		mysql_query("UPDATE choices SET promptID = '".$_POST['choice2_prompt']."' WHERE id = '" . $_POST['choice2'] . "'") or print ("error: " . mysql_error());
 	}
+	if (!empty($_POST['choice2text']) && $_POST['choice2text'] != ''){
+		mysql_query("UPDATE choices SET text = '" . addslashes(urldecode($_POST['choice2text'])) . "' WHERE id = '" . $_POST['choice2'] . "'") or print ("error: " . mysql_error());
+	}
 	if (!empty($_POST['choice3_prompt']) && $_POST['choice3_prompt'] != ''){
 		mysql_query("UPDATE choices SET promptID = '".$_POST['choice3_prompt']."' WHERE id = '" . $_POST['choice3'] . "'") or print ("error: " . mysql_error());
+	}
+	if (!empty($_POST['choice3text']) && $_POST['choice3text'] != ''){
+		mysql_query("UPDATE choices SET text = '" . addslashes(urldecode($_POST['choice3text'])) . "' WHERE id = '" . $_POST['choice3'] . "'") or print ("error: " . mysql_error());
 	}
 }
 $formURL = 'story_setup.php?prompt=' . $promptID;
@@ -126,13 +135,22 @@ echo "<form action = '$formURL' method = 'post'>
 		<div class = 'label'><b>text: </b></div><div class = 'texttext'> $promptData[text]</div><br />
 		<div class = 'label'><b>text: </b></div><input class = 'text' type = 'text' value = '$text' name = 'text' /><br />
 		<div class = 'label'><b>poem: </b></div><input class = 'text' type = 'text' value = '$poem' name = 'poem' /><br />
-		<div class = 'label'><b>choice 1: </b></div><div class = 'texttext'> $choice1text</div><br />
+		<div class = 'label'><b>choice 1: </b></div><div class = 'texttext'> $choice1text</div><br />";
+		$choice1text = urlencode($choice1text); 
+		echo "
+		<div class = 'label'><b>choice 1: </b></div><input type = 'text' value = '$choice1text' name = 'choice1text' /><br />
 		<div class = 'label'><b>choice 1: </b></div><input type = 'text' value = '$promptData[choice1]' name = 'choice1' maxlength = '6' /><br />
 		<div class = 'label'><a href = '$choice1href'>choice 1 prompt: </a></div><input type = 'text' value = '$choice1prompt' maxlength = '6' name = 'choice1_prompt' /><br />
-		<div class = 'label'><b>choice 2: </b></div><div class = 'texttext'> $choice2text</div><br />
+		<div class = 'label'><b>choice 2: </b></div><div class = 'texttext'> $choice2text</div><br />";
+		$choice2text= urlencode($choice2text);
+		echo "
+		<div class = 'label'><b>choice 2: </b></div><input type = 'text' value = '$choice2text' name = 'choice2text' /><br />
 		<div class = 'label'><b>choice 2: </b></div><input type = 'text' value = '$promptData[choice2]' name = 'choice2' maxlength = '6' /><br />
 		<div class = 'label'><a href = '$choice2href'>choice 2 prompt: </a></div><input type = 'text' value = '$choice2prompt' maxlength = '6' name = 'choice2_prompt' /><br />
-		<div class = 'label'><b>choice 3: </b></div><div class = 'texttext'> $choice3text</div><br />
+		<div class = 'label'><b>choice 3: </b></div><div class = 'texttext'> $choice3text</div><br />";
+		$choice3text = urlencode($choice3text);
+		echo "
+		<div class = 'label'><b>choice 3: </b></div><input type = 'text' value = '$choice3text' name = 'choice3text' /><br />
 		<div class = 'label'><b>choice 3: </b></div><input type = 'text' value = '$promptData[choice3]' name = 'choice3' maxlength = '6' /><br />
 		<div class = 'label'><a href = '$choice3href'>choice 3 prompt: </a></div><input type = 'text' value = '$choice3prompt' maxlength = '6' name = 'choice3_prompt' /><br />
 		<div class = 'label'><b>[or] skip to next prompt: </b></div><div class = 'texttext'>$nextPromptText</div><br />

@@ -23,6 +23,9 @@ body{
 	font-family: "Nunito";
 	font-size: 1.5em;
 }
+#poem_hidden{
+	display:none;
+}
 #main_content{
 	left: 280px;
 	float: left;
@@ -34,11 +37,12 @@ body{
 	margin: 20px;
 	width: 520px;
 	height: 380px;
-	border: 1px solid #dddddd;
+	border: 1px solid #dddddd;
 }
 #picker{
 	border-top: #eeeeee solid 1px;
-	display: block;
+	/*display: block;*/
+	display:none;
 	float: left;
 	background-color: #f9f9f9;
 	padding: 10px;

@@ -1,0 +1,7 @@
+db_setup.php
+	-FILL OUT USERNAME AND PASSWORD TO SQL DATABASE.
+	-if you're using scripts, then you need to manually create the database (name = circles)
+	-if not, then you can get away with calling db_setup($link) at the head of a file (choices.php, prompts.php, story_setup.php)
+
+in db/choices.php, db/prompts.php, db/story_setup.php, you only need to make calls to db_insert_prompts() and db_insert_choices() once
+-you can do it multiple times, since it'll just clear the table to add stuff, but if you don't want to make unnecessary calls comment it out
