@@ -3,6 +3,16 @@ body{
 	font-family: "Open Sans", Arial;
 	overflow-y: scroll;
 }
+#linkto {
+	border: 1px solid #ffb925;
+	background-color: #f5efe1;
+	padding: 10px;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	font-weight: 400;
+	z-index: 100;
+}
 #wrapper {
 }
 #poem_content {

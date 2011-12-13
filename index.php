@@ -18,6 +18,9 @@
 
    </head>
    <body>
+   <?php if ($_GET['t'] == 1){ ?>
+   		<div id='linkto'>bit.ly/032circles</div>
+   <?php } ?>
    <div id='wrapper'>
    		<div id='poem_content'>
    			<h1>Circles<div class='circle_logo_1'></div><div class='circle_logo_2'></div></h1>
