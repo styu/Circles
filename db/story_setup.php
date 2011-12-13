@@ -6,10 +6,11 @@
 <?php
 require_once('../php/db_setup.php');
 $link = db_default_connection();
+//db_setup($link);
 db_setup_connections_table($link);
-/** only once **/
-db_insert_prompts();
-db_insert_choices();
+//db_insert_prompts();
+//db_insert_choices();
+//db_update_poems();
 ?>
 <style>
 .text{
