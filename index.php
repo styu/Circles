@@ -23,18 +23,6 @@
    			<h1>Circles<div class='circle_logo_1'></div><div class='circle_logo_2'></div></h1>
    			<h2>Interactive Poem</h2>
 			<div id = 'poem'>
-   			<!--<p>
-   			One two three<br />
-   			Peter, Paul, and Mary<br />
-   			Wait, no stop that<br />
-   			Not Cool<br />
-   			</p>
-   			<p>
-   			Let's talk<br />
-   			Let's have<br />
-   			A party<br />
-   			In a communal pair of pants<br />
-   			</p>-->
 			</div>
    		</div>
    		<div id='main_content'>
@@ -47,15 +35,6 @@
    				<div class='circle c5'></div>
    				<div class='circle c6'></div>
    			</div>
-   			<!--<div id='picker'>
-   				<h1>It's your turn:</h1>
-   				Who do you choose? Potato.
-   				<ul>
-   					<li><a href='#'>Choice 1, this is a good one, I guess</a></li>
-   					<li><a href='#'>Choice 2, this is even better, somewhat</a></li>
-   					<li><a href='#'>Choice 3, this is less solid, need more text?</a></li>
-   				</ul>
-   			</div>-->
    		</div>
 	</div>
    	</body>
