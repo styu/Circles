@@ -1,7 +1,7 @@
 /* STYLESHEET */
 body{
 	font-family: "Open Sans", Arial;
-	overflow: hidden;
+	overflow-y: scroll;
 }
 #wrapper {
 }
@@ -9,9 +9,11 @@ body{
 	display: block;
 	width: 240px;
 	padding: 20px;
-	height: 1000px;
+	min-height: 800px;
 	float: left;
 	background-color: #eeeeee;
+	font-size: 0.9em;
+	
 }
 #poem_content h1{
 	color: #999999;
@@ -38,6 +40,7 @@ body{
 	width: 520px;
 	height: 380px;
 	border: 1px solid #dddddd;
+	overflow: hidden;
 }
 #picker{
 	border-top: #eeeeee solid 1px;
