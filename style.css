@@ -42,7 +42,7 @@ body{
 #picker{
 	border-top: #eeeeee solid 1px;
 	/*display: block;*/
-	display:none;
+	/*display:none;*/
 	float: left;
 	background-color: #f9f9f9;
 	padding: 10px;
@@ -157,16 +157,18 @@ li{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	float: left;
 	
 }
 li a{
 	padding: 6px;
 	width: 160px;
-	height: 32px;
+	height: 50px;
 	color: #000000;
 	text-decoration: none;
 	display: block;
 	line-height: 1.2em;
+	font-size: 0.9em;
 	
 }
 li a:hover{

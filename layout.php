@@ -30,7 +30,7 @@
    			Let's talk<br />
    			Let's have<br />
    			A party<br />
-   			In a communal pair of pants<br />
+   			In a communal pair of pants.<br />
    			</p>
    		</div>
    		<div id='main_content'>
@@ -47,8 +47,8 @@
    				<h1>It's your turn:</h1>
    				Who do you choose? Potato.
    				<ul>
-   					<li><a href='#'>Choice 1, this is a good one, I guess</a></li>
-   					<li><a href='#'>Choice 2, this is even better, somewhat</a></li>
+   					<li><a href='#'>Choice 1, this is a good one, I guess stuff and stuff</a></li>
+   					<li><a href='#'>Choice 2, this </a></li>
    					<li><a href='#'>Choice 3, this is less solid, need more text?</a></li>
    				</ul>
    			</div>
